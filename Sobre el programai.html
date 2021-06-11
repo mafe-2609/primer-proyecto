@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=KoHo:wght@200;300&display=swap" rel="stylesheet"> <!-- estas son fuentes de letras de paguinas direfentes a las que que ofrece visual studio code-->
+<link rel="stylesheet" href="./styles.css"><!-- para presentar otro archivo-->
+    <link rel="stylesheet" href="./styles.css"> <!-- para presentar otro archivo-->
+</head>
+<body>
+    <nav> <!-- esto es para mi menu de navegacion-->
+        <ul class="menu"> <!-- lo que esta dentro de estos comandos son para el menu de navegacion de quienes visiten la paguina-->
+            <li> <a href="./index.html"> Inicio</a> </li>
+            <li> <a href="./Sobre el programai.html"> Sobre el programa</a></li>
+            <li> <a href="./sobre mi.html"> Sobre mi</a></li>
+        </ul>
+    </nav>
+
+    <h1> Si tienes sugerencias o preguntas, agrega un comentario para estar informado</h1>
+   <!--Inputs: Permiten capturar cierta informacion de los visitantes -->
+<form >
+   <div class="contacto">
+       <label for=""> Nombre</label>
+       <input class="input_contacto" type ="text" placeholder="Ingresa tu nombre" id=" Nombre" nombre= "Nombre">
+   </div>
+   <div class="contacto">
+       <label for="">Apellido</label><!-- Para agregar un campo de formulario-->
+       <input class="input_contacto" type="text" placeholder="Ingresa tu apellido" id="Apellido" nombre= "Apellido">
+   </div>
+   <div class="contacto">
+       <label for=""> Numero</label>
+       <input class="input_contacto"  type="number" placeholder="Ingresa tu numero de indentificacion" id="Tipo doc"nombre= "Numero de documento" >
+   </div>
+
+   <div>
+       <textarea name="Mensaje" id="Mensaje" cols="30" rows="5" placeholder=" Mensaje" > </textarea>
+   </div>
+<div class="Boton_contacto"> <!-- Para insertar un-->
+   <button> Enviar </button>
+</div>
+   </form >
+</body>
+
+</html>
